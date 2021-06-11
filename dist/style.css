@@ -1,0 +1,150 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body h1 {
+  text-transform: uppercase;
+  font-size: 5.2rem;
+  line-height: 6.2rem;
+  font-weight: 300;
+  color: #54e6af;
+}
+
+body h1 span {
+  color: #ffffff;
+}
+
+body p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #c2cbe5;
+}
+
+button {
+  text-transform: capitalize;
+  border: none;
+  width: 16.2rem;
+  height: 4.6rem;
+  background: #54e6af;
+  border-radius: 3rem;
+  margin-bottom: 5.5rem;
+  color: #121725;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+}
+
+button:hover {
+  background: #b3ffe2;
+}
+
+body {
+  display: flex;
+  flex-direction: rows;
+  align-items: flex-start;
+  background: #121725;
+  width: 144rem;
+  height: 90rem;
+}
+
+body h1 {
+  margin-top: 9.1rem;
+}
+
+body .card {
+  background: #121725;
+  width: 72.3rem;
+  height: 50.9rem;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+body .card .email input {
+  width: 42.7rem;
+  height: 5.6rem;
+  border-radius: 3rem;
+  background: #2c344b;
+  border: none;
+  color: #ffffff;
+  padding-left: 3rem;
+}
+
+body .card .email input:focus {
+  outline: none;
+}
+
+body .card .email button {
+  position: absolute;
+  right: 42%;
+  top: 75.5%;
+}
+
+body .card p {
+  margin-top: 3.4rem;
+  padding-right: 28.5rem;
+  margin-bottom: 4.5rem;
+}
+
+body .card .sponser {
+  width: 53.6rem;
+  height: 2.9rem;
+  display: flex;
+  justify-content: space-around;
+  justify-items: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+body .card .sponser .google {
+  margin-top: 0.5rem;
+  width: 12.5rem;
+  height: 1.8rem;
+}
+
+body .card .sponser .apple {
+  width: 7.8rem;
+  height: 2.9rem;
+}
+
+body .card .sponser .spotify {
+  width: 9.6rem;
+  height: 2.9rem;
+}
+
+body .card .sponser .pocket {
+  width: 12.9rem;
+  height: 2.6rem;
+}
+
+body .main-image {
+  position: absolute;
+  right: -1%;
+  bottom: 10%;
+}
+
+body .dots {
+  position: absolute;
+  right: 0;
+  bottom: 5%;
+}
+
+body .logo {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+/*# sourceMappingURL=style.css.map */
